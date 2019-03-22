@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <com.exmple.lession_gift_animi.view.CircleImageView
+        android:id="@+id/img_avatar0"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/icon_man_nopadding" />
+    
+    <LinearLayout
+        android:id="@+id/ll_avatar1"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <com.exmple.lession_gift_animi.view.CircleImageView
+            android:id="@+id/img_avatar1"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@mipmap/icon_man_nopadding" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <com.exmple.lession_gift_animi.view.CircleImageView
+            android:id="@+id/img_avatar2"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@mipmap/icon_man_nopadding" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <com.exmple.lession_gift_animi.view.CircleImageView
+            android:id="@+id/img_avatar3"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@mipmap/icon_man_nopadding" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <com.exmple.lession_gift_animi.view.CircleImageView
+            android:id="@+id/img_avatar4"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@mipmap/icon_man_nopadding" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <com.exmple.lession_gift_animi.view.CircleImageView
+            android:id="@+id/img_avatar5"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@mipmap/icon_man_nopadding" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <com.exmple.lession_gift_animi.view.CircleImageView
+            android:id="@+id/img_avatar6"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@mipmap/icon_man_nopadding" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <com.exmple.lession_gift_animi.view.CircleImageView
+            android:id="@+id/img_avatar7"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@mipmap/icon_man_nopadding" />
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <com.exmple.lession_gift_animi.view.CircleImageView
+            android:id="@+id/img_avatar8"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@mipmap/icon_man_nopadding" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="send"/>
+
+
+
+
+    <FrameLayout
+        android:id="@+id/fl_anim_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"/>
+</RelativeLayout>
